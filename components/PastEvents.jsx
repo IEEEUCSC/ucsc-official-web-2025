@@ -73,8 +73,14 @@ const PastEvents = () => {
             >
               <Link href={url}>
                 <div className="px-6 py-6 space-y-2 text-secondary-blue hover:bg-secondary-white transition-colors">
-                  <p className="line-clamp-2 text-xs mb-2">{date}</p>
-                  <span className="font-semibold text-lg">{title}</span>
+                  <p className="line-clamp-1 text-xs mb-2">{date}</p>
+
+                  <span
+                    className="font-semibold text-lg leading-tight line-clamp-1"
+                    title={title}
+                  >
+                    {title}
+                  </span>
 
                   <p className="line-clamp-3 text-xs">{summary}</p>
                 </div>
