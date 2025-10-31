@@ -95,6 +95,18 @@ export const pastEvents = [
     summary:
       "IEEEXtreme 18.0 at UCSC was an exciting overnight event held on October 26, where participants gathered in person at the university to tackle challenging programming problems. This physical setup fostered a collaborative and high-energy environment, allowing students to work side-by-side, share ideas, and stay motivated throughout the night. The event brought a hands-on experience to competitive coding, creating a memorable and engaging atmosphere for all involved as they competed against teams worldwide",
   },
+
+  {
+    title: "MS Power Tools Workshops",
+    date: "Aug 2024",
+    image: "ms-power-tools-workshops.jpeg",
+    url: "#",
+    description:
+      "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
+    summary:
+      "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
+  },
+
   {
     title: "Introductory Session 2024",
     date: "Sep 02 2024",
@@ -604,45 +616,91 @@ export const prevOfficers = [
   },
 ];
 
+// export const timelineData = [
+//   {
+//     title: "Infinite Loop 2.0",
+//     subHeading: "Workshop Series",
+//     date: "Jun - Jul 2024",
+//     description:
+//       "InfiniteLoop is a workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics.",
+//     image: "/images/events/infinite-loop.jpg",
+//   },
+//   {
+//     title: "MS Power Tools Workshops",
+//     subHeading: "Workshop Series",
+//     date: "Aug 2024",
+//     description:
+//       "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
+//     image: "/ms-power-tools-workshops.jpeg",
+//   },
+//   {
+//     title: "ReidXtreme 3.0",
+//     subHeading: "Inter-University Competitive Programming Hackathon",
+//     date: "Aug 2024",
+//     description:
+//       "RiedXtreme is a hackathon series organized by the IEEE Student Branch of UCSC collaboratively with ACM Student Chapter of UCSC. The core objective of this series is to build up the competitive programming skills of our undergraduates to help them successfully compete in IEEEXtreme.",
+//     image: "/images/events/reid-xtreme-3.0.png",
+//   },
+//   {
+//     title: "IEEE Introductory Session",
+//     subHeading: "All about IEEE",
+//     date: "Aug 2024",
+//     description:
+//       "This session is organized collaboratively by IEEE Student Branch, the IEEE CS chapter and IEEE WIE, with the aim of assisting the first-year undergraduates to find their place in IEEE.",
+//     image: "/images/events/ieee-introductory-session.jpg",
+//   },
+//   {
+//     title: "IEEEXtreme 18.0",
+//     subHeading: "24-hour Competitive Programming Competition",
+//     date: "Oct 2024",
+//     description:
+//       "IEEEXtreme is a global challenge in which teams of IEEE Student members - advised and proctored by an IEEE member, and supported by an IEEE Student Branch of UCSC - to compete in a 24-hour time span against each other to solve programming problems.",
+//     image: "/images/events/ieee-xtreme-18.0.jpg",
+//   },
+// ];
+
+
+
+
 export const timelineData = [
   {
-    title: "Infinite Loop 2.0",
-    subHeading: "Workshop Series",
-    date: "Jun - Jul 2024",
+    title: "CodeQuest: Vault Edition",
+    subHeading: "Cybersecurity Hackathon",
+    date: "Jun - Jul 2025",
     description:
-      "InfiniteLoop is a workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics.",
-    image: "/images/events/infinite-loop.jpg",
+      "The final round of CodeQuest: Vault Edition brought together 10 top university teams for an intense 8-hour hackathon packed with CTF and cybersecurity challenges. Participants showcased technical excellence, creativity, and teamwork, concluding with an awards ceremony celebrating their dedication and skill.",
+    image: "/images/events/codequest-vault-edition.webp",
   },
   {
-    title: "MS Power Tools Workshops",
+    title: "InfiniteLoop 3.0",
     subHeading: "Workshop Series",
-    date: "Aug 2024",
+    date: "Jun - Jul 2025",
     description:
-      "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
-    image: "/images/events/ms-power-tools-workshops.jpeg",
+      "InfiniteLoop 3.0, organized by the IEEE Student Branch of UCSC, guided first-year undergraduates through essential computer science concepts. With engaging sessions, hands-on learning, and mentorship from seniors, the program inspired participants to build confidence and curiosity in tech.",
+    image: "/images/events/infiniteloop-3.0.webp",
   },
   {
-    title: "ReidXtreme 3.0",
+    title: "ReidXtreme 4.0 | Initial Round",
+    subHeading: "Preliminary Coding Challenge",
+    date: "Sep 2025",
+    description:
+      "The Initial Round of ReidXtreme 4.0 tested participants through a fast-paced coding challenge that evaluated their problem-solving and algorithmic thinking. Top performers advanced to a viva session, where they discussed optimization strategies and coding approaches in depth.",
+    image: "/images/events/reidxtreme-4.0.webp",
+  },
+  {
+    title: "ReidXtreme 4.0 | Final Round",
     subHeading: "Inter-University Competitive Programming Hackathon",
-    date: "Aug 2024",
+    date: "Oct 2025",
     description:
-      "RiedXtreme is a hackathon series organized by the IEEE Student Branch of UCSC collaboratively with ACM Student Chapter of UCSC. The core objective of this series is to build up the competitive programming skills of our undergraduates to help them successfully compete in IEEEXtreme.",
-    image: "/images/events/reid-xtreme-3.0.png",
+      "The Final Round of ReidXtreme 4.0, organized by the IEEE and ACM Student Chapters of UCSC, featured an 8-hour hackathon where the best teams tackled complex coding problems under pressure. The event celebrated innovation, collaboration, and resilience among aspiring programmers.",
+    image: "/images/events/reidxtreme-4.0.webp",
   },
   {
-    title: "IEEE Introductory Session",
-    subHeading: "All about IEEE",
-    date: "Aug 2024",
+    title: "IEEEXtreme 19.0",
+    subHeading: "24-hour Global Programming Competition",
+    date: "Oct 2025",
     description:
-      "This session is organized collaboratively by IEEE Student Branch, the IEEE CS chapter and IEEE WIE, with the aim of assisting the first-year undergraduates to find their place in IEEE.",
-    image: "/images/events/ieee-introductory-session.jpg",
-  },
-  {
-    title: "IEEEXtreme 18.0",
-    subHeading: "24-hour Competitive Programming Competition",
-    date: "Oct 2024",
-    description:
-      "IEEEXtreme is a global challenge in which teams of IEEE Student members - advised and proctored by an IEEE member, and supported by an IEEE Student Branch of UCSC - to compete in a 24-hour time span against each other to solve programming problems.",
-    image: "/images/events/ieee-xtreme-18.0.jpg",
+      "IEEEXtreme 19.0 challenged IEEE Student Members worldwide to solve real-time algorithmic problems over a 24-hour marathon. Hosted by the IEEE Student Branch of UCSC, the event fostered teamwork, innovation, and global collaboration among the next generation of coders.",
+    image: "/images/events/ieeextreme-19.0.webp",
   },
 ];
