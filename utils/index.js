@@ -97,17 +97,6 @@ export const pastEvents = [
   },
 
   {
-    title: "MS Power Tools Workshops",
-    date: "Aug 2024",
-    image: "ms-power-tools-workshops.webp",
-    url: "#",
-    description:
-      "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
-    summary:
-      "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
-  },
-
-  {
     title: "Introductory Session 2024",
     date: "Sep 02 2024",
     image: "intro-2024.jpeg",
@@ -116,6 +105,17 @@ export const pastEvents = [
       "This session is organized collaboratively by IEEE Student Branch, the IEE CS chapter and IEEE WIE, with the aim of assisting the first year undergraduates to find their place in IEEE",
     description:
       "The IEEE Introductory Session, organized by the IEEE Student Branch along with the IEEE Computer Society and IEEE Women in Engineering (WIE) chapters, is aimed at helping first-year undergraduates find their place in IEEE. During this session, each group—Student Branch, CS Chapter, and WIE—is introduced by its respective chairperson, followed by interactive segments where current members share their experiences. This collaborative event helps new students learn about IEEE’s mission and the various opportunities available for growth and engagement within each chapter.",
+  },
+
+  {
+    title: "MS Power Tools Workshops",
+    date: "Aug 2024",
+    image: "ms-power-tools-workshops.webp",
+    url: "#",
+    description:
+      "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
+    summary:
+      "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
   },
   {
     title: "RiedXtreme 3.0",
@@ -633,13 +633,13 @@ export const timelineData = [
       "InfiniteLoop 3.0, organized by the IEEE Student Branch of UCSC, guided first-year undergraduates through essential computer science concepts. With engaging sessions, hands-on learning, and mentorship from seniors, the program inspired participants to build confidence and curiosity in tech.",
     image: "/images/events/infiniteloop-3.0.webp",
   },
-    {
+  {
     title: "ReidXtreme 4.0",
     subHeading: "Inter-University Competitive Programming Hackathon",
     date: "Sep - Oct 2025",
     description:
       "ReidXtreme 4.0, organized by the IEEE and ACM Student Chapters of UCSC, challenged undergraduates through a two-stage competition that tested both coding and problem-solving prowess. From the intense preliminary round to the 8-hour final hackathon, participants demonstrated innovation, teamwork, and determination, making it one of the year’s most impactful coding events.",
-     image: "/images/events/reidxtreme-4.0.webp",
+    image: "/images/events/reidxtreme-4.0.webp",
   },
   {
     title: "IEEEXtreme 19.0",
