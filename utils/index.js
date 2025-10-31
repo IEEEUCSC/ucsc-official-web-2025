@@ -633,22 +633,6 @@ export const timelineData = [
       "InfiniteLoop 3.0, organized by the IEEE Student Branch of UCSC, guided first-year undergraduates through essential computer science concepts. With engaging sessions, hands-on learning, and mentorship from seniors, the program inspired participants to build confidence and curiosity in tech.",
     image: "/images/events/infiniteloop-3.0.webp",
   },
-  // {
-  //   title: "ReidXtreme 4.0 | Initial Round",
-  //   subHeading: "Preliminary Coding Challenge",
-  //   date: "Sep 2025",
-  //   description:
-  //     "The Initial Round of ReidXtreme 4.0 tested participants through a fast-paced coding challenge that evaluated their problem-solving and algorithmic thinking. Top performers advanced to a viva session, where they discussed optimization strategies and coding approaches in depth.",
-  //   image: "/images/events/reidxtreme-4.0.webp",
-  // },
-  // {
-  //   title: "ReidXtreme 4.0 | Final Round",
-  //   subHeading: "Inter-University Competitive Programming Hackathon",
-  //   date: "Oct 2025",
-  //   description:
-  //     "The Final Round of ReidXtreme 4.0, organized by the IEEE and ACM Student Chapters of UCSC, featured an 8-hour hackathon where the best teams tackled complex coding problems under pressure. The event celebrated innovation, collaboration, and resilience among aspiring programmers.",
-  //   image: "/images/events/reidxtreme-4.0.webp",
-  // },
     {
     title: "ReidXtreme 4.0",
     subHeading: "Inter-University Competitive Programming Hackathon",
