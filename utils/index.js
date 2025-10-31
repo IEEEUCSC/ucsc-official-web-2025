@@ -616,52 +616,6 @@ export const prevOfficers = [
   },
 ];
 
-// export const timelineData = [
-//   {
-//     title: "Infinite Loop 2.0",
-//     subHeading: "Workshop Series",
-//     date: "Jun - Jul 2024",
-//     description:
-//       "InfiniteLoop is a workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics.",
-//     image: "/images/events/infinite-loop.jpg",
-//   },
-//   {
-//     title: "MS Power Tools Workshops",
-//     subHeading: "Workshop Series",
-//     date: "Aug 2024",
-//     description:
-//       "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools.",
-//     image: "/ms-power-tools-workshops.jpeg",
-//   },
-//   {
-//     title: "ReidXtreme 3.0",
-//     subHeading: "Inter-University Competitive Programming Hackathon",
-//     date: "Aug 2024",
-//     description:
-//       "RiedXtreme is a hackathon series organized by the IEEE Student Branch of UCSC collaboratively with ACM Student Chapter of UCSC. The core objective of this series is to build up the competitive programming skills of our undergraduates to help them successfully compete in IEEEXtreme.",
-//     image: "/images/events/reid-xtreme-3.0.png",
-//   },
-//   {
-//     title: "IEEE Introductory Session",
-//     subHeading: "All about IEEE",
-//     date: "Aug 2024",
-//     description:
-//       "This session is organized collaboratively by IEEE Student Branch, the IEEE CS chapter and IEEE WIE, with the aim of assisting the first-year undergraduates to find their place in IEEE.",
-//     image: "/images/events/ieee-introductory-session.jpg",
-//   },
-//   {
-//     title: "IEEEXtreme 18.0",
-//     subHeading: "24-hour Competitive Programming Competition",
-//     date: "Oct 2024",
-//     description:
-//       "IEEEXtreme is a global challenge in which teams of IEEE Student members - advised and proctored by an IEEE member, and supported by an IEEE Student Branch of UCSC - to compete in a 24-hour time span against each other to solve programming problems.",
-//     image: "/images/events/ieee-xtreme-18.0.jpg",
-//   },
-// ];
-
-
-
-
 export const timelineData = [
   {
     title: "CodeQuest: Vault Edition",
