@@ -349,16 +349,7 @@ export const standingCommittee = [
     instagram: "https://www.instagram.com/kavi.amara/",
     email: "kaveenamarasekara2@gmail.com",
   },
-  {
-    name: "Disuri Gihansa",
-    position: "Marketing Lead",
-    image: "scom/disuri.jpeg",
-    linkedin: "http://linkedin.com/in/disuri-gihansa-8958722a1",
-    facebook: "https://www.facebook.com/share/1JQ5PUDmC8/?mibextid=wwXIfr",
-    instagram:
-      "https://www.instagram.com/_disu9365_?igsh=MW1maXoxY293OG56cA%3D%3D&utm_source=qr",
-    email: "disurig@gmail.com",
-  },
+
   {
     name: "Sonali Punchihewa",
     position: "Editorial Content Co-Lead",
@@ -375,6 +366,16 @@ export const standingCommittee = [
     linkedin: "",
     instagram: "",
     email: "jini.a.lm@gmail.com",
+  },
+  {
+    name: "Disuri Gihansa",
+    position: "Marketing Lead",
+    image: "scom/disuri.jpeg",
+    linkedin: "http://linkedin.com/in/disuri-gihansa-8958722a1",
+    facebook: "https://www.facebook.com/share/1JQ5PUDmC8/?mibextid=wwXIfr",
+    instagram:
+      "https://www.instagram.com/_disu9365_?igsh=MW1maXoxY293OG56cA%3D%3D&utm_source=qr",
+    email: "disurig@gmail.com",
   },
   {
     name: "Hashen Udara",
