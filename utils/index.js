@@ -316,7 +316,7 @@ export const executiveCommittee = [
     email: "sonalitarakee@gmail.com",
   },
   {
-    name: "E.M. Hashen Udara",
+    name: "Hashen Udara",
     position: "Web Master",
     image: "excom/hashen.jpg",
     linkedin: "https://www.linkedin.com/in/hashen-udara",
@@ -424,7 +424,7 @@ export const contactExCom = [
     email: "jini.a.lm2@gmail.com",
   },
   {
-    name: "E.M. Hashen Udara",
+    name: "Hashen Udara",
     position: "Webmaster",
     email: "emhashenudara@gmail.com",
   },
