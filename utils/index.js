@@ -398,6 +398,14 @@ export const standingCommittee = [
     email: "leonigangoda@gmail.com",
   },
   {
+    name: "Chamuthu Edirisooriya",
+    position: "Design Co-Lead",
+    image: "scom/chamuthu-edirisooriya.png",
+    linkedin: "https://www.linkedin.com/in/chamuthu-edirisooriya-01416b206/",
+    instagram: "",
+    email: "chamuthuedirisooriya@gmail.com",
+  },
+  {
     name: "Savithma Jayasena",
     position: "Finance Lead",
     image: "scom/savithma-jayasena.png",
@@ -405,6 +413,7 @@ export const standingCommittee = [
     instagram: "https://instagram.com/savijayasena",
     email: "savithmajayasena@gmail.com",
   },
+
 ];
 
 export const contactExCom = [
