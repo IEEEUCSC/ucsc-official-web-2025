@@ -1,6 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-primary-blue: #05609A;
+    --color-secondary-blue: #234961;
+    --color-primary-white: #FAFAFA;
+    --color-secondary-white: #EBEBEB;
+}
+
+/* Preserve the previous base styles during the Tailwind 4 migration. */
+@layer base {
+    *, ::before, ::after, ::backdrop, ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+
+    button, [role="button"] {
+        cursor: pointer;
+    }
+}
 
 
 .no-scroll {

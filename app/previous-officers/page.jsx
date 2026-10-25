@@ -10,8 +10,8 @@ const page = () => {
       </h1>
 
       <div>
-        {prevOfficers.map(({ year, officers }, i) => (
-          <div>
+        {prevOfficers.map(({ year, officers }) => (
+          <div key={year}>
             <TeamMembers title={year} members={officers} />
           </div>
         ))}

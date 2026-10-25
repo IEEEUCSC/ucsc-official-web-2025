@@ -1,0 +1,6 @@
+# Next.js 16.4 adapts these plugins to ESLint 10's rule-context API.
+# Keep this aligned with package.json overrides until their peer ranges catch up.
+overrides:
+  eslint-plugin-import>eslint: ^10.13.0
+  eslint-plugin-jsx-a11y>eslint: ^10.13.0
+  eslint-plugin-react>eslint: ^10.13.0

@@ -54,7 +54,7 @@ const Navbar = () => {
             <TransitionLink
               href={link}
               key={index}
-              className="hover:bg-primary-blue/10 px-1 py-1 rounded transition-color duration-200"
+              className="hover:bg-primary-blue/10 px-1 py-1 rounded-sm transition-color duration-200"
             >
               {name}
             </TransitionLink>
@@ -105,25 +105,24 @@ const Navbar = () => {
           className="fixed top-16 bg-primary-white w-full flex flex-col px-4 py-8"
         >
           {navbarLinks.map(({ name, link }, index) => (
-            <div onClick={handleClick}>
+            <div key={link} onClick={handleClick}>
               <TransitionLink
                 href={link}
-                key={index}
-                className="hover:bg-primary-blue/10 px-1 py-1 rounded transition-color duration-200 uppercase text-primary-blue font-semibold text-xl"
+                className="hover:bg-primary-blue/10 px-1 py-1 rounded-sm transition-color duration-200 uppercase text-primary-blue font-semibold text-xl"
               >
                 {name}
               </TransitionLink>
             </div>
           ))}
           <div className="mb-2 text-xl">
-            <p className=" px-1 py-1 rounded transition-color duration-200 uppercase text-primary-blue font-semibold">
+            <p className=" px-1 py-1 rounded-sm transition-color duration-200 uppercase text-primary-blue font-semibold">
               Our team
             </p>
             <div className="ml-4 flex flex-col">
               <div onClick={handleClick}>
                 <TransitionLink
                   href="#current-team"
-                  className="hover:bg-primary-blue/10 px-1 py-1 rounded transition-color duration-200 uppercase text-primary-blue font-semibold text-lg"
+                  className="hover:bg-primary-blue/10 px-1 py-1 rounded-sm transition-color duration-200 uppercase text-primary-blue font-semibold text-lg"
                 >
                   - Current Team
                 </TransitionLink>
@@ -131,7 +130,7 @@ const Navbar = () => {
               <div onClick={handleClick}>
                 <TransitionLink
                   href="/previous-officers"
-                  className="hover:bg-primary-blue/10 px-1 py-1 rounded transition-color duration-200 uppercase text-primary-blue font-semibold text-lg"
+                  className="hover:bg-primary-blue/10 px-1 py-1 rounded-sm transition-color duration-200 uppercase text-primary-blue font-semibold text-lg"
                 >
                   - Previous Officers
                 </TransitionLink>
@@ -142,7 +141,7 @@ const Navbar = () => {
           <div onClick={handleClick}>
             <TransitionLink
               href="#contact"
-              className="hover:bg-primary-blue/10 px-1 py-1 rounded transition-color duration-200 uppercase text-primary-blue font-semibold text-xl"
+              className="hover:bg-primary-blue/10 px-1 py-1 rounded-sm transition-color duration-200 uppercase text-primary-blue font-semibold text-xl"
             >
               Contact us
             </TransitionLink>
@@ -188,7 +187,7 @@ const DropDown = () => {
   };
   return (
     <div className="cursor-pointer relative" onClick={handleClick}>
-      <span className="flex hover:bg-primary-blue/10 px-2 py-1 rounded">
+      <span className="flex hover:bg-primary-blue/10 px-2 py-1 rounded-sm">
         {" "}
         Our Team{" "}
         <svg
@@ -207,7 +206,7 @@ const DropDown = () => {
         </svg>
       </span>
       <div
-        className="absolute -bottom-24 -left-1 w-[180px] bg-[#E3EBF0] px-2 py-2 rounded space-y-2"
+        className="absolute -bottom-24 -left-1 w-[180px] bg-[#E3EBF0] px-2 py-2 rounded-sm space-y-2"
         ref={box}
         style={{ clipPath: "inset(0 0 100% 0)" }}
       >
@@ -229,7 +228,7 @@ const ContactButton = () => {
   return (
     <TransitionLink
       href="#contact-us"
-      className="border border-primary-blue text-primary-blue hover:bg-primary-blue/10 px-2 py-1 rounded"
+      className="border border-primary-blue text-primary-blue hover:bg-primary-blue/10 px-2 py-1 rounded-sm"
     >
       contact us
     </TransitionLink>

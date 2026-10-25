@@ -20,7 +20,7 @@ const Contact = () => {
           <p className="md:text-3xl text-lg font-medium text-secondary-blue">
             Connect with the IEEE Student Branch of UCSC - your gateway to
             professional growth, technical innovation, and meaningful networking
-            opportunities in the field of engineering and computing. We're here
+            opportunities in the field of engineering and computing. We&apos;re here
             to support your journey and welcome your inquiries.
           </p>
           <div className="flex flex-col md:flex-row md:gap-0 gap-2 justify-between my-8 text-secondary-blue font-medium">

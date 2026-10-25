@@ -32,6 +32,7 @@ const AnimatedImageStack = () => {
         >
           <Image
             src={image}
+            alt=""
             width={1200}
             height={1200}
             className="w-full h-full object-cover"

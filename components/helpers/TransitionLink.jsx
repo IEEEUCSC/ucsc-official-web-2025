@@ -64,7 +64,7 @@ const TransitionLink = ({ children, href, className, props }) => {
       <Link
         onClick={handleTransition}
         href={href}
-        prefetch
+        prefetch={false}
         className={className}
         {...props}
       >

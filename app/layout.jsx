@@ -14,12 +14,13 @@ const raveo = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://ucscieee.lk"),
   title: "IEEE Student Branch of UCSC",
   description:
     "The IEEE Student Branch of University of Colombo School of Computing was established in 2011 and has achieved great success during the past few years.",
   openGraph: {
     title: "IEEE Student Branch of UCSC",
-    images: "/opengraph.png",
+    images: [{ url: "/images/6.jpg", alt: "IEEE Student Branch of UCSC" }],
     locale: "en_US",
     type: "website",
   },
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <ReactLenis root>
         <body
-          className={`${raveo.variable} font-[family-name:var(--font-raveo)] antialiased bg-primary-white font-light selection:bg-primary-blue selection:text-secondary-white`}
+          className={`${raveo.variable} font-(family-name:--font-raveo) antialiased bg-primary-white font-light selection:bg-primary-blue selection:text-secondary-white`}
         >
           <div className="">
             <Transition />

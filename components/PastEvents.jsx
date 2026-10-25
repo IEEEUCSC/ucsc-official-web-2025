@@ -67,7 +67,7 @@ const PastEvents = () => {
         >
           {pastEvents.map(({ title, summary, image, date, url }, index) => (
             <div
-              className="md:h-[500px] h-[600px] flex-shrink-0 event"
+              className="md:h-[500px] h-[600px] shrink-0 event"
               key={index}
               style={{ width: containerWidth / divisor }}
             >
