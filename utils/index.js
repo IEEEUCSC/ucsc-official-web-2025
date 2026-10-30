@@ -13,6 +13,10 @@ export const navbarLinks = [
     link: "/",
   },
   {
+    name: "blog",
+    link: "/blog/",
+  },
+  {
     name: "about us",
     link: "#about-us",
   },

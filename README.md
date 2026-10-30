@@ -149,6 +149,19 @@ public/                      Logos, photographs, and video
 next.config.mjs              Static export and routing configuration
 eslint.config.mjs            Lint configuration
 ```
+## Implementation Notes
+
+### Design
+
+The blog uses the existing Raveo font, blue-and-white theme colors, rounded image cards, generous spacing, and responsive Tailwind layouts so it feels consistent with the rest of the website. Blog cards and article pages reuse the site's existing visual language instead of introducing a separate design system.
+
+### Performance
+
+Blog content is stored in the local `utils/blog.js` data file and statically generated at build time. Images use `next/image` with responsive `sizes`, fixed aspect-ratio containers, and `object-cover` to prevent layout shifts and keep large images from breaking the layout. Article routes use `generateStaticParams`, so no runtime API or database request is required.
+
+### Improvements
+
+With more time, I would add a lightweight content workflow or Markdown-based authoring format so approved articles could be updated without editing JavaScript data structures directly.
 
 ## Deployment
 
